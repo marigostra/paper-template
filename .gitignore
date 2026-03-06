@@ -1,0 +1,9 @@
+out
+*.aux
+*.log
+*.out
+*.pdf
+*.ps
+*.eps
+*.mps
+	

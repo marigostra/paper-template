@@ -15,7 +15,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install texlive-full
 
       - name: Compile LaTeX document
-        run: pdflatex -interaction=batchmode  main.tex
+        run: ./.github/scripts/build.sh
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
